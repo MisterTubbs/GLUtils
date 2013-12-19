@@ -425,6 +425,7 @@ public class Camera3D implements Camera {
         glTranslatef(-x, -y, -z);
         glPopAttrib();
 	}
+	
 
 	@Override
 	public void setRotation(float pitch, float yaw, float roll) {

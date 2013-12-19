@@ -13,5 +13,13 @@ public class Font {
 	public void bind(){
 		texture.bind();
 	}
+	
+	public void unbind(){
+		texture.unbind();
+	}
+	
+	public void delete(){
+		texture.delete();
+	}
 
 }

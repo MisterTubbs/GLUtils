@@ -64,7 +64,11 @@ public class Vector3f {
 		return new Vector3f(x / r, y / r, z / r);
 	}
 	
-	
+	public void setPosition(float x, float y, float z){
+		this.x = x; 
+		this.y = y;
+		this.z = z;
+	}
 
 	public float getX() {
 		return x;
